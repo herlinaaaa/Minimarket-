@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="566.0" prefWidth="868.0" style="-fx-background-color: NavajoWhite;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyekpbominimarket.BerandaController">
+    <stylesheets>
+        <URL value="@beranda.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane prefHeight="136.0" prefWidth="868.0" style="-fx-background-color: Cornsilk;">
+         <children>
+            <ImageView fitHeight="136.0" fitWidth="139.0" layoutX="20.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/logp.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="121.0" prefHeight="56.0" prefWidth="868.0" style="-fx-background-color: Peru;">
+         <children>
+            <Button layoutX="77.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: Cornsilk; -fx-font-family: Perpetua; -fx-font-size: 15;" text="Home" />
+            <Button layoutX="167.0" layoutY="12.0" mnemonicParsing="false" style="-fx-background-color: Cornsilk; -fx-font-size: 15; -fx-font-family: Perpetua;" text="Katalog Promosi" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

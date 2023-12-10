@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="601.0" prefWidth="803.0" style="-fx-background-color: Wheat;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyekpbominimarket.LoginController">
+    <stylesheets>
+        <URL value="@login.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane layoutX="466.0" prefHeight="601.0" prefWidth="298.0" style="-fx-background-color: Cornsilk;">
+         <children>
+            <ImageView fitHeight="193.0" fitWidth="237.0" layoutX="51.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/logp.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label layoutX="181.0" layoutY="132.0" style="-fx-font-family: Garamond; -fx-font-size: 30; -fx-font-color: Maroon;" text="Masuk" textAlignment="CENTER" textFill="#512f00" />
+      <TextField layoutX="71.0" layoutY="225.0" prefHeight="46.0" prefWidth="333.0" promptText="username" style="-fx-background-color: Cornsilk;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextField>
+      <PasswordField layoutX="71.0" layoutY="295.0" prefHeight="46.0" prefWidth="333.0" promptText="password" style="-fx-background-color: Cornsilk;">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </PasswordField>
+      <Button layoutX="73.0" layoutY="464.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="328.0" style="-fx-background-color: red; -fx-text-fill: LightYellow; -fx-font-size: 15;" text="Daftar">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button layoutX="72.0" layoutY="405.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="330.0" style="-fx-background-color: LimeGreen; -fx-text-fill: LightYellow; -fx-font-size: 15;" text="Login">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
